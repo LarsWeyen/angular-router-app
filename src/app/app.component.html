@@ -179,6 +179,14 @@
 
 <main class="main">
   <div class="content">
+    <nav>
+      <ul>
+        <li><a RouteLink="/" href="/" routerLinkActive="active">Home</a></li>
+        <li><a RouterLink="/second" href="/second" routerLinkActive="active">Second Page</a></li>
+        <li><a href="#" (click)="$event.preventDefault(); goToContact()">Contact Us</a></li>
+      </ul>
+    </nav>
+   
    </div>
 </main>
 
